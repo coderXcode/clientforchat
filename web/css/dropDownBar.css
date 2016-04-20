@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Oct, 2014, 2:04:51 AM
+    Author     : MansJ
+*/
+
+html
+{
+    background-image: url(/Mailer/image/mail_1.jpg);
+    animation: mainAnim linear 6s;   
+}
+@keyframes maiAnim
+{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+#navMenu
+{
+    margin: 0;
+    padding: 0;
+   // position:  fixed; // test
+
+}
+
+
+#navMenu ul
+{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    // border-radius: 20px;
+    border-color:  #120a09;
+}
+#navMenu li
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+    background:  purple;
+    border-radius: 20px;// test added
+    border-right-style:  ridge; 
+}
+#navMenu ul li a
+{
+    text-align: center;
+    font-family :  fantasy;
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    display: block;
+    color:   white;
+    //border-right:  #FFF  dashed 1px;
+    text-shadow: 1px 1px 1px #120a09;
+
+}
+#navMenu ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 31px; //same height as of ul li IMPORTANT
+}
+#navMenu ul li:hover ul{
+    animation: myfirst  linear 1s;
+    visibility:  visible;
+    //background-color:  aquamarine ;
+
+}
+@keyframes myfirst
+{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+/********************************************************************/
+
+#navMenu li:hover
+{
+    background: violet;  
+}
+#navMenu ul li:hover ul li a:hover{
+    color:  #9173c8;
+    background:  yellow;
+
+    // border-radius: 40px;
+}
+#navMenu a:hover
+{
+    color:  #120a09;
+}
+.clearFloat
+{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+/****************************LoadScreen*************************************************/
+/*div#load_screen{ background: #000;
+                 opacity: 1;
+                 position: fixed;
+                 z-index:10; 
+                 top: 0px;
+                 width: 100%;
+                 height: 1600px; 
+                  animation: load linear 4s;
+                  animation-delay: 4s;
+}
+@keyframes load
+{
+    from{background:black;}
+    to{background:green;}
+}
+div#load_screen > div#loading
+{ color:#FFF; 
+  width:120px; 
+  height:24px;
+  margin: 300px auto;
+  animation-delay: 4s;
+ 
+}*/
+
+/****************************MAIN PAGE STARTS*****************************************/
+
+#f_1
+{
+    background:  #cccccc ; height:1000px;width: 900px; border-radius: 20px; border-style: dotted; border-color:  aliceblue;
+    animation: fieldset1  linear 5s;
+    opacity:0.75;
+    animation-delay: 6s; 
+}
+@keyframes fieldset1
+{
+    0% {opacity:0;transform:translateX(1500px); }
+    60%{opacity:0.5;  transform:translateX(0px);}
+    70%{opacity:0.5;  transform:translateX(20px);}
+    80%{opacity:0.5;  transform:translateX(0px);}
+    85%{opacity:0.5;  transform:translateX(10px);}
+    90%{opacity:0.5;  transform:translateX(0px);}  
+    95%{opacity:0.5;  transform:translateX(2px);}
+    100%{opacity:0.75;  transform:translateX(0px);}
+}
+#login
+{
+    border-radius: 20px;
+    border-style:  groove;
+    width: 70px;
+    height: 30px;
+    background-color:  orangered;
+    
+}
+#login:hover
+{
+    border-radius: 20px;
+    border-style:  groove;
+    width: 73px;
+    height: 33px;
+    background-color:  #ffb80d;
+      
+}
+#Sign-up
+{
+    border-radius: 20px;
+    border-style:  groove;
+    width: 70px;
+    height: 30px;
+    background-color:  orangered;
+}
+#Sign-up:hover
+{
+    border-radius: 20px;
+    border-style:  groove;
+    width: 73px;
+    height: 33px;
+    background-color:  #ffb80d;
+      
+}

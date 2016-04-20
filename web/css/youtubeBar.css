@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Sep, 2014, 11:35:11 PM
+    Author     : MansJ
+*/
+._wrapper
+{
+   position: fixed;
+   width: 100%;
+   height: 25px;
+}
+
+div#d1
+{
+   height:40px;
+   width: 300px;
+   background: black;
+   border: solid aliceblue 2px;
+   font: bold fantasy;
+   color: white;
+   
+   
+}
+div#d1:hover
+{
+ animation:effect infinite linear alternate 2s;
+ 
+}
+@keyframes effect
+{
+    from
+    {
+        background: black;
+   border: solid aliceblue 2px;
+   font: bold fantasy;
+   color: white;
+    }
+    to
+    {
+        background: brown;
+   border: solid aliceblue 2px;
+   font: bold fantasy;
+   color: white;
+    }
+}
+
+div#d2
+{
+   height:40px;
+   width: 300px;
+   background: black;
+   border: solid aliceblue 2px;
+   font: bold fantasy;
+   color: white;
+   animation: effect 2s linear ;
+   
+   
+}
+
+
+div#d3
+{
+  height:40px;
+   width: 300px;
+   background: black;
+   border: solid aliceblue 2px;
+   font: bold fantasy;
+   color: white;
+   //visibility:  hidden;  
+}
+div#d4
+{
+  height:40px;
+   width: 300px;
+   background: black;
+   border: solid aliceblue 2px;
+   font: bold fantasy;
+   color: white;
+  // visibility:  hidden;  
+}

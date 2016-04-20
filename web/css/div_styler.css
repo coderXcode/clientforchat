@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Sep, 2014, 10:34:59 PM
+    Author     : MansJ
+*/
+
+
+.wrapper
+{
+    position:  fixed;  
+    height: 1500px;
+    width:1500px;
+    background: #01aed3;
+}
+div#d1
+{   
+    height:200px;
+    width:1500px;
+    background: #1f87bf;
+}
+div#d2
+{
+      height: 25%;
+    width:1500px;
+    background:  #6cdf87;
+    
+   
+}
+div#d3
+{  height: 25%;
+    width:1500px;
+    background:  #6cdf87;
+       
+}
+div#d4
+{
+height: 25%;
+    width:1500px;
+       
+}
+div#d1#h1
+{   alignment-adjust:  middle;
+    width:50px;
+    height: 30px;
+    background:  aquamarine;
+}

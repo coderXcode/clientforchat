@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Oct, 2014, 11:22:57 PM
+    Author     : MansJ
+*/
+
+body
+{
+    background-color:  #fffab3;
+    color: red;
+}
+/*this starts the navbar menu  THIS MOVES ALL CONTENTS TO TOP*/
+
+.nav
+{
+    margin: 0;
+    padding: 0;
+}
+.nav ul
+{
+    margin:0;
+    padding: 0;
+    
+}
+.nav li
+{
+  
+ list-style: none;   
+ float: left;
+ position: relative;
+}
+.nav ul li a
+{
+    color: white;
+    text-align: center;
+    text-decoration: none; /* removes underline*/
+    width: 150px;
+    height: 50px;
+    display: block;
+}
