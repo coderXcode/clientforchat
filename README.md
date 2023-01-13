@@ -1,4 +1,4 @@
-# clientforchat
+# **Simple Chat client**
 
 **Just a simple client to send chats with subject between two registered people.**
 
